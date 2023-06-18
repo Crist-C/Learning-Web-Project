@@ -65,7 +65,42 @@
 
 	</dependencies>
 
+	<profiles>
+
+		<profile>
+			<id>desarrollo</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<profile.dir>src/main/resources/develop</profile.dir>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>produccion</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<profile.dir>src/main/resources/production</profile.dir>
+			</properties>
+		</profile>
+
+	</profiles>
+
+
 	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>${profile.dir}</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
