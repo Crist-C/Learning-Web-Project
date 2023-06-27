@@ -14,7 +14,7 @@
 	<name>CarStore</name>
 	<description>Este proyecto es un desarrollo backend para una tienda de venta de carros.</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
