@@ -14,9 +14,9 @@ public class Reservation implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idReservation;
     @Column(length = 50, nullable = false)
-    private String state;
+    private String status;
     @Column(length = 50, nullable = false)
-    private String initDate;
+    private String startDate;
     @Column(length = 50, nullable = false)
     private String endDate;
 

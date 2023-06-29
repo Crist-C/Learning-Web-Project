@@ -18,9 +18,9 @@ public class Car implements Serializable {
     @Column(nullable = false)
     private String model;
     @Column(nullable = false)
-    private Integer anio;
+    private Integer year;
     @Column(length = 20, nullable = false)
-    private String placa;
+    private String plate;
     @Column(length = 50, nullable = false)
     private String color;
     @Column(length = 5000)
