@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sergioarboleda</groupId>
-	<artifactId>CarStore</artifactId>
+	<artifactId>RentCar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CarStore</name>
-	<description>Este proyecto es un desarrollo backend para una tienda de venta de carros.</description>
+	<name>RentCar</name>
+	<description>Este proyecto es un desarrollo backend para una tienda de renta de carros.</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
