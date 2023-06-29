@@ -52,4 +52,9 @@ admite una amplia variedad de tecnologías y lenguajes de programación, lo que 
 https://docs.spring.io
 
 ### Procedimiento
-1. Crea
+1. Crear las clases que corresponden a las entidades
+2. Crear la anotaciones para las entidades y sus atributos
+3. Crear las relaciones entre entidades
+4. Crear las interfaces de los repositorios
+5. Crear los métodos adicionales que se requieran en los repositorios
+6. Crear las Clases repositorio. Que incluyan un objeto de la interfaz.
